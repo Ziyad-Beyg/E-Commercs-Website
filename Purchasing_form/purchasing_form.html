@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Information</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="purchasing_form.css">
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-database.js"></script>
+    <script>
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: "AIzaSyBF6bxUqeWupf5EMo_jfB4RbMVDCCxfb0c",
+        authDomain: "idealpowertech-1b173.firebaseapp.com",
+        databaseURL: "https://idealpowertech-1b173.firebaseio.com",
+        projectId: "idealpowertech-1b173",
+        storageBucket: "idealpowertech-1b173.appspot.com",
+        messagingSenderId: "241994500235",
+        appId: "1:241994500235:web:38b89ab8b5ce073c8fec8e",
+        measurementId: "G-WC9TT1CDBV"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+</head>
+<body>
+  <div>
+    <h1 id="name-website">
+      IDEAL POWER TECH
+    </h1>
+  </div>
+    <div class="row">
+        <div class="col-75">
+          <div class="container">
+            <form action="Thank_u/thanks.html">
+      
+              <div class="row">
+                <div class="col-50">
+                  <h3 id="info-heading">CHECKOUT INFORMATION</h3>
+                  <div class="label-text">
+                  <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your Name" required>
+                  <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                  <input type="email" id="email" name="email" placeholder="123@example.com" required>
+                  <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                  <input type="text" id="address" name="address" placeholder="Your Address" required>
+                  <label for="city"><i class="fa fa-institution"></i> City</label>
+                  <input type="text" id="city" name="city" placeholder="Your City">
+                  <label for="phone number"><i class="fa fa-phone"></i> Phone Number</label>
+                  <input type="number" id="phone_number" name="phonenumber" placeholder="03XX-XXXXXXX" required>
+                  <label for="postal code"><i class="fa fa-hashtag"></i> Postal Code</label>
+                  <input type="number" id="postal_code" name="postal code" placeholder="XXXXX" required>
+                  <!-- <label for="product"> <i class="fa fa-th"></i> Product Name</label>
+                  <input type="text" id="product_name" name="productname" readonly> -->
+                </div>    
+                </div>
+                  </div>
+                </div>
+      
+                <div id="payment-method" class="col-50">
+                  <h1 style="font-weight: bold; color: green; font-size: xx-large; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Payment Method</h1>
+                  <label class="cod" for="cod"><i class="fa fa-money"></i> Cash On Delivery</label>
+                  <label class="dc" for="dc"><i class="fa fa-motorcycle"></i> <span>Delivery Charges : </span> <span id="dc-150">150</span></label>
+                </div>
+             <div id="submit-btn">
+              <button onclick="checkout()" class="btn-submit">
+                <a style="color: white; font-weight: bolder; text-decoration: none;" >
+                  Place Order
+                </a>
+            </button>
+             </div>
+            </form>
+          </div>
+        </div>  
+      
+        
+    <script src="purchasing_app.js"></script>
+</body>
+</html>

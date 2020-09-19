@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gasoline Water Pump</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous"><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+</head>
+<body>
+
+    <div class="first-strip">
+          <span class="first-strip-text">
+            BEST TOOLS AVAILABLE AT BEST PRICES!!!
+          </span>
+    </div>
+
+  <div class="sticky-top">
+    <div id="second-strip" class="bg-dark">
+      <div id="navbar-toggle-button">
+        <nav class="navbar navbar-dark bg-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </nav>
+      </div>
+
+      <div class="store-name">
+        <h3 id="name-website">
+          <span id="ideal">
+            IDEAL
+          </span> 
+          <span id="power">
+            POWER
+          </span> 
+          <span id="tech">
+            TECH
+          </span>
+        </h3>
+      </div>  
+      <form autocomplete="off" action="#">
+              
+        <div class="autocomplete" style="width:300px;">
+          <input id="myInput" type="text" name="myTools" placeholder="Search">
+        </div>
+        <button class="search-button" onclick="searched_element()" id="search-btn">Search</button>
+      </form>
+  </div>          
+
+      <div class="navbar-container float-left d-flex p-2 bd-highlight">
+        <span >
+          <div class="dropdown-diappear float-left">
+            <button class="btn btn-secondary dropdown-Menu margin-dropdown" type="button" id="dropdownMenu2" aria-haspopup="true" aria-expanded="false">
+              <a class="dropdown-menu-links" href="../coming_soon/coming_soon.html">All Tools</a>
+            </button>
+          </div>
+
+          <div class="dropdown-diappear float-left dropdown">
+            <button class="btn btn-secondary dropdown-toggle dropdown-Menu margin-dropdown" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Hand Tools
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="../hand_tools/Cutter.html">Cutter</a></button>
+                    <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="../hand_tools/Hex_Keys.html">Hex Key</a></button>
+                    <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="../hand_tools/Magnetics.html">Magnetics</a></button>
+                    <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="../hand_tools/Pliers.html">Pliers</a></button>
+                    <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="../hand_tools/Screwdrivers.html">Screw Drivers</a></button>
+                    <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="../hand_tools/Sockets_Sets.html">Socket Set</a></button>
+                    <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="../hand_tools/Wrenches.html">Wrenches</a></button>
+            </div>
+          </div>
+
+          <div class="dropdown-diappear float-left dropdown">
+            <button class="btn btn-secondary dropdown-toggle dropdown-Menu margin-dropdown" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Power Tools
+            </button>                  
+            <div class="dropdown-menu my-custom-scrollbar my-custom-scrollbar-primary" aria-labelledby="dropdownMenu2">
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="Angle_Grinders.html">Angle Grinders</a></button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="Cordless_drill_drive.html">Cordless Drill Drive</a></button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="Electric_Drill.html">Electric Drill</a></button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="Hammer.html"> Hammer  </a></button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="Impact_Drill.html">Impact Drill</a></button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="Percussion_Drill.html">Percussion Drill</a></button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="Disc_Grinders.html">Disc Grinders  </a></button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="Sanders.html"> Sanders </a></button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="Router.html"> Router </a></button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="Polisher.html"> Polisher </a></button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="Planner.html"> Planner </a></button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="Mitter_Saw.html"> Mitter Saw </a></button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="Jig_Saw.html"> Jig Saw </a></button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="High_Pressure_Water.html"> High Pressure Water </a></button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="Heat_Gun.html"> Heat Gun  </a></button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="Hand_Grinders.html"> Hand Grinders </a></button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="#"> Gasoline Water Pump </a></button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="Engine_Brush_Cutter.html"> Engine Brush Cutter </a></button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="Cutter.html"> Cutter </a></button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="Cutt_Off_Machine.html"> Cutt Off Machine </a></button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="Circular_Saw.html"> Circular Saw </a></button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="Chain_Saw.html"> Chain Saw </a></button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="Blower.html"> Blower </a></button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="Bench_Drill.html"> Bench Drill </a></button>              
+            </div>
+          </div>
+
+          <div class="dropdown-diappear float-left dropdown">
+            <button class="btn btn-secondary dropdown-toggle dropdown-Menu margin-dropdown" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Lubricants & Chemicals
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="../coming_soon/coming_soon.html">Coming Soon</a></button>
+              <!-- <button class="dropdown-item dropdown-Menu" type="button margin-dropdown">Another action</button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown">Something else here</button> -->
+            </div>
+          </div>
+
+          <div class="dropdown-diappear float-left dropdown">
+            <button class="btn btn-secondary dropdown-toggle dropdown-Menu margin-dropdown" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Safety Equipment
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="../coming_soon/coming_soon.html">Coming Soon</a></button>
+              <!-- <button class="dropdown-item dropdown-Menu" type="button margin-dropdown">Another action</button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown">Something else here</button> -->
+            </div>
+          </div>
+
+          <div class="dropdown-diappear float-left dropdown">
+            <button class="btn btn-secondary dropdown-toggle dropdown-Menu margin-dropdown" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              General Utility
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="../coming_soon/coming_soon.html">Coming Soon</a></button>
+              <!-- <button class="dropdown-item dropdown-Menu" type="button margin-dropdown">Another action</button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown">Something else here</button> -->
+            </div>
+          </div>
+
+          <div class="dropdown-diappear float-left dropdown">
+            <button class="btn btn-secondary dropdown-toggle dropdown-Menu margin-dropdown" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Shop by Brands
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="../coming_soon/coming_soon.html">Coming Soon</a></button>
+              <!-- <button class="dropdown-item dropdown-Menu" type="button margin-dropdown">Another action</button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown">Something else here</button> -->
+            </div>
+          </div>
+
+        <!-- <div class="dropdown-diappear float-left ">
+          <button class="btn btn-secondary dropdown-Menu margin-dropdown" type="button" id="dropdownMenu2" aria-haspopup="true" aria-expanded="false">
+            Sale
+          </button>
+        </div> -->
+
+        <div class="dropdown-diappear float-left">
+          <button class="btn btn-secondary dropdown-Menu margin-dropdown margin-top" type="button" id="dropdownMenu2" aria-haspopup="true" aria-expanded="false">
+            <a class="dropdown-menu-links" href="../left_Dropdown/Contact_us.html"> Contact Us</a>          </button>
+        </div>
+      </span>  
+      </div>
+    </div>
+
+
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="nav-item active">
+            <button class="btn btn-secondary dropdown-Menu margin-dropdown" type="button" id="dropdownMenu2" aria-haspopup="true" aria-expanded="false">
+              <a class="dropdown-menu-links" href="../coming_soon/coming_soon.html">All Tools</a>
+            </button>
+        </li>
+
+        <li class="nav-item dropdown">
+            <button class="btn btn-secondary dropdown-toggle dropdown-Menu margin-dropdown" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Hand Tools
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="../hand_tools/Cutter.html">Cutter</a></button>
+                    <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="../hand_tools/Hex_Keys.html">Hex Key</a></button>
+                    <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="../hand_tools/Magnetics.html">Magnetics</a></button>
+                    <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="../hand_tools/Pliers.html">Pliers</a></button>
+                    <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="../hand_tools/Screwdrivers.html">Screw Drivers</a></button>
+                    <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="../hand_tools/Sockets_Sets.html">Socket Set</a></button>
+                    <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="../hand_tools/Wrenches.html">Wrenches</a></button>
+            </div>
+        </li>
+
+        <li class="nav-item dropdown">
+            <button class="btn btn-secondary dropdown-toggle dropdown-Menu margin-dropdown" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Power Tools
+            </button>
+            <div class="dropdown-menu my-custom-scrollbar my-custom-scrollbar-primary" aria-labelledby="dropdownMenu2">
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="Angle_Grinders.html">Angle Grinders</a></button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="Cordless_drill_drive.html">Cordless Drill Drive</a></button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="Electric_Drill.html">Electric Drill</a></button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="Hammer.html"> Hammer  </a></button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="Impact_Drill.html">Impact Drill</a></button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="Percussion_Drill.html">Percussion Drill</a></button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="Disc_Grinders.html">Disc Grinders  </a></button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="Sanders.html"> Sanders </a></button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="Router.html"> Router </a></button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="Polisher.html"> Polisher </a></button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="Planner.html"> Planner </a></button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="Mitter_Saw.html"> Mitter Saw </a></button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="Jig_Saw.html"> Jig Saw </a></button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="High_Pressure_Water.html"> High Pressure Water </a></button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="Heat_Gun.html"> Heat Gun  </a></button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="Hand_Grinders.html"> Hand Grinders </a></button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="#"> Gasoline Water Pump </a></button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="Engine_Brush_Cutter.html"> Engine Brush Cutter </a></button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="Cutter.html"> Cutter </a></button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="Cutt_Off_Machine.html"> Cutt Off Machine </a></button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="Circular_Saw.html"> Circular Saw </a></button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="Chain_Saw.html"> Chain Saw </a></button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="Blower.html"> Blower </a></button>
+              <button class="dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="Bench_Drill.html"> Bench Drill </a></button>              
+            </div>
+        </li>
+
+        <li class="nav-item dropdown">
+            <button class="btn btn-secondary dropdown-toggle dropdown-Menu margin-dropdown" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Lubricants & Chemicals
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <button class=" dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="../coming_soon/coming_soon.html">Coming Soon</a></button>
+              <!-- <button class=" dropdown-item dropdown-Menu" type="button margin-dropdown">Another action</button>
+              <button class=" dropdown-item dropdown-Menu" type="button margin-dropdown">Something else here</button> -->
+            </div>
+        </li>
+
+        <li class="nav-item dropdown">
+            <button class="btn btn-secondary dropdown-toggle dropdown-Menu margin-dropdown" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Safety Equipment
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <button class=" dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="../coming_soon/coming_soon.html">Coming Soon</a></button>
+              <!-- <button class=" dropdown-item dropdown-Menu" type="button margin-dropdown">Another action</button>
+              <button class=" dropdown-item dropdown-Menu" type="button margin-dropdown">Something else here</button> -->
+            </div>
+        </li>
+
+        <li class="nav-item dropdown">
+            <button class="btn btn-secondary dropdown-toggle dropdown-Menu margin-dropdown" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              General Utility
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <button class=" dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="../coming_soon/coming_soon.html">Coming Soon</a></button>
+              <!-- <button class=" dropdown-item dropdown-Menu" type="button margin-dropdown">Another action</button>
+              <button class=" dropdown-item dropdown-Menu" type="button margin-dropdown">Something else here</button> -->
+            </div>
+        </li>
+
+        <li class="nav-item dropdown">
+            <button class="btn btn-secondary dropdown-toggle dropdown-Menu margin-dropdown" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Shop by Brands
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <button class=" dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="../coming_soon/coming_soon.html">Coming Soon</a></button>
+              <!-- <button class=" dropdown-item dropdown-Menu" type="button margin-dropdown">Another action</button>
+              <button class=" dropdown-item dropdown-Menu" type="button margin-dropdown">Something else here</button> -->
+            </div>
+        </li>
+
+        <!-- <li class="nav-item">
+            <button class="btn btn-secondary dropdown-Menu margin-dropdown" type="button" id="dropdownMenu2" aria-haspopup="true" aria-expanded="false">
+              Sale
+            </button>
+        </li> -->
+
+        <li class="nav-item">
+            <button class="btn btn-secondary dropdown-Menu margin-dropdown margin-top" type="button" id="dropdownMenu2" aria-haspopup="true" aria-expanded="false">
+              <a class="dropdown-menu-links" href="../left_Dropdown/Contact_us.html"> Contact Us</a>            </button>
+        </li>
+      </ul> 
+    </div>
+
+    <div class="btn-group dropleft extra-dropdown-div">
+      <button class="btn btn-secondary extra-dropdown-button dropdown-toggle " type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+        <button class=" dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="../index.html"> Home</a></button>
+        <button class=" dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="../coming_soon/coming_soon.html"> About Us</a></button>
+        <button class=" dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href="../left_Dropdown/Contact_us.html"> Contact Us</a></button>
+        <!-- <button class=" dropdown-item dropdown-Menu" type="button margin-dropdown"><a class="dropdown-menu-links" href=""> Services</a></button> -->
+      </div>
+      </div>
+      
+      
+          <div>
+              <a target="-blank" href="https://api.whatsapp.com/send?phone=923422014753&text=&source=&data=&app_absent=">
+              <img id="watsapp-icon" src="../images/iconfinder_2018_social_media_popular_app_logo-whatsapp_3225179.png" alt=""> </a>
+          </div>
+
+
+    <div class="card-styling">
+      <div class="container">
+        <div class="row">
+            
+            <div class="col">
+              <div class="card">
+                <img class="card-img-top" src="../images/Gasoline_Water_Pump_Images/GASOLINE WATER PUMP 4  7.7HP 60M3 H (YT85403).jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">GASOLINE WATER PUMP 4" 7.7HP 60M3/H (YT85403)</h5>
+                  <p class="card-text">Price 0000</p>
+                  <a href="../Purchasing_form/purchasing_form.html" id="i" onclick="getProductname(); transform(this)" class="btn btn-primary">Add To Cart</a>
+                </div>
+              </div>
+            </div>
+          
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="../images/Gasoline_Water_Pump_Images/GASOLINE WATER PUMP 3  5.9HP 60 (YT85402).jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">GASOLINE WATER PUMP 3" 5.9HP 60 (YT85402)</h5>
+                <p class="card-text">Price 0000</p>
+                <a href="../Purchasing_form/purchasing_form.html" id="i" onclick="getProductname(); transform(this)" class="btn btn-primary">Add To Cart</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="../images/Gasoline_Water_Pump_Images/GASOLINE GENERATOR (YT-85437).jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">GASOLINE GENERATOR (YT-85437)</h5>
+                <p class="card-text">Price 0000</p>
+                <a href="../Purchasing_form/purchasing_form.html" id="i" onclick="getProductname(); transform(this)" class="btn btn-primary">Add To Cart</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="../images/Gasoline_Water_Pump_Images/GASOLINE GENERATOR (YT-85440E).jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">GASOLINE GENERATOR (YT-85440E)</h5>
+                <p class="card-text">Price 0000</p>
+                <a href="../Purchasing_form/purchasing_form.html" id="i" onclick="getProductname(); transform(this)" class="btn btn-primary">Add To Cart</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+              <div class="card">
+                <img class="card-img-top" src="../images/Gasoline_Water_Pump_Images/GASOLINE GENERATOR (YT-85432E).jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">GASOLINE GENERATOR (YT-85432E)</h5>
+                  <p class="card-text">Price 0000</p>
+                  <a href="../Purchasing_form/purchasing_form.html" id="i" onclick="getProductname(); transform(this)" class="btn btn-primary">Add To Cart</a>
+                </div>
+              </div>
+            </div>
+          
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="../images/Gasoline_Water_Pump_Images/GASOLINE GENERATOR (YT-85434).jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">GASOLINE GENERATOR (YT-85434)</h5>
+                <p class="card-text">Price 0000</p>
+                <a href="../Purchasing_form/purchasing_form.html" id="i" onclick="getProductname(); transform(this)" class="btn btn-primary">Add To Cart</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="../images/Gasoline_Water_Pump_Images/PORTABLE GASOLINE GENERATOR (YT-85421).jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">PORTABLE GASOLINE GENERATOR (YT-85421)</h5>
+                <p class="card-text">Price 0000</p>
+                <a href="../Purchasing_form/purchasing_form.html" id="i" onclick="getProductname(); transform(this)" class="btn btn-primary">Add To Cart</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="../images/Gasoline_Water_Pump_Images/PORTABLE GASOLINE GENERATOR (YT-85422).jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">PORTABLE GASOLINE GENERATOR (YT-85422)</h5>
+                <p class="card-text">Price 0000</p>
+                <a href="../Purchasing_form/purchasing_form.html" id="i" onclick="getProductname(); transform(this)" class="btn btn-primary">Add To Cart</a>
+              </div>
+            </div>
+          </div>
+                           
+          </div>
+        </div>
+      </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="../app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
+</body>
+</html>

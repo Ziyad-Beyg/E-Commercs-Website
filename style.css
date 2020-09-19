@@ -1,0 +1,363 @@
+.first-strip{
+    text-align: center;
+    align-items: center;
+    background: rgb(238, 4, 4);
+    padding-top: 10px;
+    width: 100%;
+    height: 50px;
+}
+
+.first-strip-text{
+    color: white;
+    font-weight: bolder;
+}
+
+.my-custom-scrollbar {
+    position: relative;
+    width: auto;
+    margin-left: 0px;
+    height: 400px;
+    overflow: auto;
+}
+
+#second-strip{
+    height: 80px !important;
+    width: 100% !important;
+    display: flex;
+}
+
+#navbar-toggle-button{
+    display: none ;
+}
+
+.autocomplete {
+  position: relative;
+  display: inline-block;
+}
+
+input {
+  border: 1px solid transparent;
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+input[type=text] {
+  margin-top: 15px ;
+  margin-left: 15px;
+  background-color: #f1f1f1;
+  width: 100%;
+  border-radius: 10px;
+  position: relative;
+  left: 10px;
+}
+
+.search-button {
+  background-color: rgb(238, 4, 4);
+  color: #fff;
+  border-radius: 10px;
+  width: 100px;
+  height: 2.9em;
+  box-shadow: none;
+  border: none;
+  padding-left: 20px;
+  font-weight: bolder;
+}
+
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.autocomplete-items div:hover {
+  color: rgb(238, 4, 4);
+  font-weight: bolder !important;
+}
+
+.autocomplete-active {
+  color: rgb(238, 4, 4) !important;
+  font-weight: bolder !important;
+}
+ 
+.navbar-container{
+    background-color: white !important;
+}
+
+.color-white{
+    color: white !important;
+}
+
+.search-container{
+    display: inline-block
+}
+
+#name-website{
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: white;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+#name-website:hover{
+    transition: 1s;
+    letter-spacing: 3px;
+}
+
+.dropdown:hover>.dropdown-menu{
+    display: block;
+}
+
+#dropdown-text{
+    color: black !important;
+}
+
+.margin-dropdown{
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.dropdown-Menu{
+    background: none !important;
+    color: black !important;
+    border: none !important;
+    box-shadow: none !important;
+    font-size: 14px !important;
+    cursor: pointer;
+}
+
+.dropdown-menu-links{
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.dropdown-menu-links:hover{
+    color: red !important;
+}
+
+.dropdown-Menu:hover{
+    color: red !important;
+}
+
+#watsapp-icon{
+    width: 50px !important;
+    height: 50px !important;
+    position: absolute;
+    top: 800px;
+    left: 94% !important;
+}
+
+.extra-dropdown-div{
+    /* position: absolute; */
+    /* top: px; */
+    /* margin-top: 50px !important; */
+    margin-left: 94% !important;
+    width: 50px !important;
+}
+
+.extra-dropdown-button{
+    position: absolute;
+    top: 100px;
+    background: rgb(4, 172, 238) !important;
+    color: white !important;
+    font-size: 24px !important;
+    border: none !important;
+}
+
+.btn-primary{
+    width: 100%;
+    background-color: rgb(240, 4, 4) !important;
+}
+
+/* .card-text,.card-title{
+    font-weight: bold;
+}
+
+.card-title{
+    margin-top: 15px !important;
+    margin-bottom: 20px !important;
+    font-size: 17px;
+}
+
+.card{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 200px !important;
+} */
+
+.card-img-top{
+    width: auto;
+    height: 150px;
+}
+
+.card_old{
+    margin-bottom: 200px !important;
+    margin-top: 50px;   
+    width: 200px;
+    height: 200px !important;
+}
+
+.card_modified{
+    margin-bottom: 29em !important;
+    margin-top: 50px;   
+    width: 200px;
+    height: 200px !important;
+}
+
+.card{
+    margin-bottom: 200px !important;
+    margin-top: 50px;   
+    width: 200px;
+    height: 200px !important;
+}
+.card-text,.card-title{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.card-title{
+    margin-top: 40px;
+}
+
+form{
+    height: 40px !important;
+}
+
+#more {display: none;}
+
+@media only screen and (max-width: 768px){
+    .extra-dropdown-div{
+        margin-left: 85% !important;
+    }
+}
+
+@media only screen and (max-width: 346px){
+    #first-strip{
+        height: 70px;
+    }
+}
+
+@media only screen and (max-width: 194px){
+    #first-strip{
+        height: 90px;
+    }
+}
+
+@media only screen and (max-width: 159px){
+    #first-strip{
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width: 966px){
+    #second-strip{
+        height: 100px !important;
+    }
+}
+
+@media only screen and (max-width: 854px){
+    #second-strip{
+        height: 130px !important;
+    }
+}
+
+@media only screen and (max-width: 966px){
+    #tech{
+        display: block !important;
+    }
+}
+
+@media only screen and (max-width: 854px){
+    #power{
+        display: block !important;
+    }
+}
+
+@media only screen and (max-width: 171px){
+    #here{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 1052px){
+    .margin-top{
+        margin-top: 15px !important ;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .dropdown-diappear{
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    #navbar-toggle-button{
+        display: block !important;
+        margin-top: 10px;
+
+    }
+}
+
+/* 
+@media only screen and (max-width: 1052px){
+    #watsapp-icon{
+        position: relative;
+        top: 400px;
+        left: 900px;
+    }
+}
+
+@media only screen and (max-width: 970px){
+    #watsapp-icon{
+        position: relative;
+        top: 400px;
+        left: 700px;
+    }
+}
+
+@media only screen and (max-width: 766px){
+    #watsapp-icon{
+        position: relative;
+        top: 400px;
+        left: 500px;
+    }
+}
+
+@media only screen and (max-width: 590px){
+    #watsapp-icon{
+        position: relative;
+        top: 400px;
+        left: 300px;
+    }
+} */
+
+/* @media only screen and (max-width: 400px){
+    #watsapp-icon{
+        position: relative;
+        top: 400px;
+        left: 100px;
+    }
+}
+
+@media only screen and (max-width: 230px){
+    #watsapp-icon{
+        position: relative;
+        top: 400px;
+        left: 80px;
+    }
+} */
